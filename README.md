@@ -88,6 +88,12 @@ Every second, the app simulates price changes using a timer in PortfolioBloc, re
 
 ---
 
+### Screenshots
+![Light Mode](Docs/light.png)
+![Dark Mode](Docs/dark.png)
+
+---
+
 ### Author
 
 **Snehal Lokhande**  

@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F0F14E62E133062004A8A1C /* light.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F0F14E52E133062004A8A1C /* light.png */; };
+		0F0F14E72E133062004A8A1C /* light.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F0F14E52E133062004A8A1C /* light.png */; };
+		0F0F14E82E133062004A8A1C /* light.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F0F14E52E133062004A8A1C /* light.png */; };
+		0F0F14EA2E13306E004A8A1C /* dark.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F0F14E92E13306E004A8A1C /* dark.png */; };
+		0F0F14EB2E13306E004A8A1C /* dark.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F0F14E92E13306E004A8A1C /* dark.png */; };
+		0F0F14EC2E13306E004A8A1C /* dark.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F0F14E92E13306E004A8A1C /* dark.png */; };
 		3675D7D62E132578005048B4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3675D7D52E132578005048B4 /* README.md */; };
 		3675D7D72E132578005048B4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3675D7D52E132578005048B4 /* README.md */; };
 		3675D7D82E132578005048B4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3675D7D52E132578005048B4 /* README.md */; };
@@ -34,6 +40,8 @@
 
 /* Begin PBXFileReference section */
 		040617B9C03BFE2B331C1CA9 /* Pods_Baraka_BarakaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Baraka_BarakaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F0F14E52E133062004A8A1C /* light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = light.png; sourceTree = "<group>"; };
+		0F0F14E92E13306E004A8A1C /* dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dark.png; sourceTree = "<group>"; };
 		18D8753D1883D730292B8D94 /* Pods_BarakaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BarakaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B1E9B8F68F51F30E5D0945B /* Pods-Baraka.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Baraka.release.xcconfig"; path = "Target Support Files/Pods-Baraka/Pods-Baraka.release.xcconfig"; sourceTree = "<group>"; };
 		3675D7D52E132578005048B4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -111,6 +119,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F0F14E42E132FCC004A8A1C /* Docs */ = {
+			isa = PBXGroup;
+			children = (
+				0F0F14E92E13306E004A8A1C /* dark.png */,
+				0F0F14E52E133062004A8A1C /* light.png */,
+			);
+			path = Docs;
+			sourceTree = "<group>";
+		};
 		2BCA7AB396264700D708F6DA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -127,6 +144,7 @@
 		36805A1E2E09782200445070 = {
 			isa = PBXGroup;
 			children = (
+				0F0F14E42E132FCC004A8A1C /* Docs */,
 				3675D7D52E132578005048B4 /* README.md */,
 				36805A402E09782400445070 /* BarakaTests */,
 				36805A4A2E09782400445070 /* BarakaUITests */,
@@ -280,7 +298,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F0F14E82E133062004A8A1C /* light.png in Resources */,
 				3675D7D62E132578005048B4 /* README.md in Resources */,
+				0F0F14EC2E13306E004A8A1C /* dark.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +308,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F0F14E62E133062004A8A1C /* light.png in Resources */,
 				3675D7D82E132578005048B4 /* README.md in Resources */,
+				0F0F14EB2E13306E004A8A1C /* dark.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,7 +318,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F0F14E72E133062004A8A1C /* light.png in Resources */,
 				3675D7D72E132578005048B4 /* README.md in Resources */,
+				0F0F14EA2E13306E004A8A1C /* dark.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
