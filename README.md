@@ -1,10 +1,10 @@
-###Baraka Portfolio - iOS Technical Assignment
+### Baraka Portfolio - iOS Technical Assignment
 
 This project implements a Portfolio Dashboard for the Baraka app using UIKit, MVVM architecture, and RxSwift. It showcases a user-friendly, modular UI with simulated live market updates.
 
 ---
 
-###Features
+### Features
 
 - Displays portfolio balance, P&L, and positions
 - Simulated live price updates
@@ -14,25 +14,25 @@ This project implements a Portfolio Dashboard for the Baraka app using UIKit, MV
 
 ---
 
-###Architecture
+### Architecture
 
 The app follows a clean **MVVM architecture**:
 
 ```
 Baraka/
-├── App/                      # AppDelegate, SceneDelegate
+├── App/                      # AppDelegate, SceneDelegate
 ├── Features/
-│   └── Portfolio/
-│       ├── Model/           # Data models
-│       ├── View/            # UI components (ViewController, Cells, Header)
-│       ├── ViewModel/       # ViewModel logic & formatting
-│       └── Service/         # Networking
-└── Resources/              # Shared components like Asssets, LaunchScreen
+│   └── Portfolio/
+│       ├── Model/           # Data models
+│       ├── View/            # UI components (ViewController, Cells, Header)
+│       ├── ViewModel/       # ViewModel logic & formatting
+│       └── Service/         # Networking
+└── Resources/              # Shared components like Asssets, LaunchScreen
 ```
 
 ---
 
-###Tech Stack
+### Tech Stack
 
 - **Language:** Swift
 - **UI Framework:** UIKit
@@ -43,8 +43,7 @@ Baraka/
 
 ---
 
-###Getting Started
-
+### Getting Started
 ### Prerequisites
 
 - Xcode 15+
@@ -52,29 +51,30 @@ Baraka/
 
 ### Setup
 
-1. Clone the repo  
-   ```bash
-   git clone https://github.com/Senhal-iOS/baraka.git
-   cd baraka
-   ```
+1. Clone the repo  
+   ```bash
+   git clone https://github.com/Senhal-iOS/baraka.git
+   cd baraka
+   ```
 
-2. Install dependencies  
-   ```bash
-   pod install
-   ```
+2. Install dependencies  
+   ```bash
+   pod install
+   ```
 
-3. Open the `.xcworkspace` file in Xcode  
-   ```bash
-   open Baraka.xcworkspace
-   ```
+3. Open the `.xcworkspace` file in Xcode  
+   ```bash
+   open Baraka.xcworkspace
+   ```
 
 4. Build and run on iOS Simulator
 
 ---
 
-###API Simulation
+### API Simulation
 
-The portfolio data is fetched from:
+The portfolio data is fetched from: 
+
 
 ```
 GET https://dummyjson.com/c/60b7-70a6-4ee3-bae8
@@ -82,17 +82,22 @@ GET https://dummyjson.com/c/60b7-70a6-4ee3-bae8
 
 Simulated price updates occur every few seconds within the `PortfolioViewModel`.
 
+### Live Price Simulation:
+
+Every second, the app simulates price changes using a timer in PortfolioBloc, recalculating: Last traded price, Market value & PnL & PnL % The UI updates via emitting PortfolioLoaded state again.
+
 ---
 
-###Author
+### Author
 
-**Snehal Lokhande**  
-Mobile Developer | Fintech Enthusiast  
-Dubai, UAE  
+**Snehal Lokhande**  
+Mobile Developer | Fintech Enthusiast  
+Dubai, UAE  
 isnehal28@gmail.com
 
 ---
 
-###License
+### License
 
 This project is intended for technical evaluation purposes only. Not for production use.
+
