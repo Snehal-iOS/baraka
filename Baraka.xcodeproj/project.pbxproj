@@ -6,6 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		3675D7D62E132578005048B4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3675D7D52E132578005048B4 /* README.md */; };
+		3675D7D72E132578005048B4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3675D7D52E132578005048B4 /* README.md */; };
+		3675D7D82E132578005048B4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3675D7D52E132578005048B4 /* README.md */; };
+		369D4BBA2E09815100F01A02 /* Pods_Baraka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5777FB323EA2253985BDAD /* Pods_Baraka.framework */; };
+		9BA6B9CF00110026CDB55258 /* Pods_Baraka_BarakaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040617B9C03BFE2B331C1CA9 /* Pods_Baraka_BarakaUITests.framework */; };
+		FF68FDE055FE600F2DB112B5 /* Pods_BarakaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D8753D1883D730292B8D94 /* Pods_BarakaTests.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		36805A3E2E09782400445070 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,9 +33,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		040617B9C03BFE2B331C1CA9 /* Pods_Baraka_BarakaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Baraka_BarakaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D8753D1883D730292B8D94 /* Pods_BarakaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BarakaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B1E9B8F68F51F30E5D0945B /* Pods-Baraka.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Baraka.release.xcconfig"; path = "Target Support Files/Pods-Baraka/Pods-Baraka.release.xcconfig"; sourceTree = "<group>"; };
+		3675D7D52E132578005048B4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		36805A272E09782200445070 /* Baraka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Baraka.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36805A3D2E09782400445070 /* BarakaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarakaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36805A472E09782400445070 /* BarakaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarakaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		369D4BAD2E0980FB00F01A02 /* Differentiator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Differentiator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		369D4BB12E09810B00F01A02 /* RxCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		369D4BB42E09811600F01A02 /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		369D4BB72E09812700F01A02 /* RxCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CF4C90648D307DBA6563FEE /* Pods-Baraka-BarakaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Baraka-BarakaUITests.debug.xcconfig"; path = "Target Support Files/Pods-Baraka-BarakaUITests/Pods-Baraka-BarakaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		76263A91504F746A23597F3C /* Pods-BarakaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BarakaTests.release.xcconfig"; path = "Target Support Files/Pods-BarakaTests/Pods-BarakaTests.release.xcconfig"; sourceTree = "<group>"; };
+		7BBF111DCDC46601609B4799 /* Pods-Baraka-BarakaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Baraka-BarakaUITests.release.xcconfig"; path = "Target Support Files/Pods-Baraka-BarakaUITests/Pods-Baraka-BarakaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AA5777FB323EA2253985BDAD /* Pods_Baraka.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Baraka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3D38E9BEDA3050808530FDE /* Pods-Baraka.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Baraka.debug.xcconfig"; path = "Target Support Files/Pods-Baraka/Pods-Baraka.debug.xcconfig"; sourceTree = "<group>"; };
+		EEFDDE63DED78F11DD098640 /* Pods-BarakaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BarakaTests.debug.xcconfig"; path = "Target Support Files/Pods-BarakaTests/Pods-BarakaTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -65,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				369D4BBA2E09815100F01A02 /* Pods_Baraka.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF68FDE055FE600F2DB112B5 /* Pods_BarakaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,19 +104,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BA6B9CF00110026CDB55258 /* Pods_Baraka_BarakaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2BCA7AB396264700D708F6DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C3D38E9BEDA3050808530FDE /* Pods-Baraka.debug.xcconfig */,
+				1B1E9B8F68F51F30E5D0945B /* Pods-Baraka.release.xcconfig */,
+				3CF4C90648D307DBA6563FEE /* Pods-Baraka-BarakaUITests.debug.xcconfig */,
+				7BBF111DCDC46601609B4799 /* Pods-Baraka-BarakaUITests.release.xcconfig */,
+				EEFDDE63DED78F11DD098640 /* Pods-BarakaTests.debug.xcconfig */,
+				76263A91504F746A23597F3C /* Pods-BarakaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		36805A1E2E09782200445070 = {
 			isa = PBXGroup;
 			children = (
-				36805A292E09782200445070 /* Baraka */,
+				3675D7D52E132578005048B4 /* README.md */,
 				36805A402E09782400445070 /* BarakaTests */,
 				36805A4A2E09782400445070 /* BarakaUITests */,
 				36805A282E09782200445070 /* Products */,
+				2BCA7AB396264700D708F6DA /* Pods */,
+				B2A53630B1790EEB6A80120D /* Frameworks */,
+				36805A292E09782200445070 /* Baraka */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +147,20 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		B2A53630B1790EEB6A80120D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				369D4BB72E09812700F01A02 /* RxCocoa.framework */,
+				369D4BB42E09811600F01A02 /* RxSwift.framework */,
+				369D4BB12E09810B00F01A02 /* RxCocoa.framework */,
+				369D4BAD2E0980FB00F01A02 /* Differentiator.framework */,
+				AA5777FB323EA2253985BDAD /* Pods_Baraka.framework */,
+				040617B9C03BFE2B331C1CA9 /* Pods_Baraka_BarakaUITests.framework */,
+				18D8753D1883D730292B8D94 /* Pods_BarakaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -112,9 +168,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 36805A502E09782400445070 /* Build configuration list for PBXNativeTarget "Baraka" */;
 			buildPhases = (
+				2CDB6BB32BB4A731EE2849DE /* [CP] Check Pods Manifest.lock */,
 				36805A232E09782200445070 /* Sources */,
 				36805A242E09782200445070 /* Frameworks */,
 				36805A252E09782200445070 /* Resources */,
+				11076EE5665D73B8AEBF0320 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,8 +182,6 @@
 				36805A292E09782200445070 /* Baraka */,
 			);
 			name = Baraka;
-			packageProductDependencies = (
-			);
 			productName = Baraka;
 			productReference = 36805A272E09782200445070 /* Baraka.app */;
 			productType = "com.apple.product-type.application";
@@ -134,6 +190,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 36805A552E09782400445070 /* Build configuration list for PBXNativeTarget "BarakaTests" */;
 			buildPhases = (
+				96DFA95918101D475A89815D /* [CP] Check Pods Manifest.lock */,
 				36805A392E09782400445070 /* Sources */,
 				36805A3A2E09782400445070 /* Frameworks */,
 				36805A3B2E09782400445070 /* Resources */,
@@ -147,8 +204,6 @@
 				36805A402E09782400445070 /* BarakaTests */,
 			);
 			name = BarakaTests;
-			packageProductDependencies = (
-			);
 			productName = BarakaTests;
 			productReference = 36805A3D2E09782400445070 /* BarakaTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -157,9 +212,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 36805A582E09782400445070 /* Build configuration list for PBXNativeTarget "BarakaUITests" */;
 			buildPhases = (
+				EBAB02278DE41CE8EE3F9737 /* [CP] Check Pods Manifest.lock */,
 				36805A432E09782400445070 /* Sources */,
 				36805A442E09782400445070 /* Frameworks */,
 				36805A452E09782400445070 /* Resources */,
+				97415C2E2F8DC8750A257610 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -170,8 +227,6 @@
 				36805A4A2E09782400445070 /* BarakaUITests */,
 			);
 			name = BarakaUITests;
-			packageProductDependencies = (
-			);
 			productName = BarakaUITests;
 			productReference = 36805A472E09782400445070 /* BarakaUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -225,6 +280,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3675D7D62E132578005048B4 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +288,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3675D7D82E132578005048B4 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,10 +296,122 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3675D7D72E132578005048B4 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11076EE5665D73B8AEBF0320 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Baraka/Pods-Baraka-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Baraka/Pods-Baraka-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Baraka/Pods-Baraka-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2CDB6BB32BB4A731EE2849DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Baraka-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96DFA95918101D475A89815D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BarakaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97415C2E2F8DC8750A257610 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Baraka-BarakaUITests/Pods-Baraka-BarakaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Baraka-BarakaUITests/Pods-Baraka-BarakaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Baraka-BarakaUITests/Pods-Baraka-BarakaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBAB02278DE41CE8EE3F9737 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Baraka-BarakaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		36805A232E09782200445070 /* Sources */ = {
@@ -284,11 +453,14 @@
 /* Begin XCBuildConfiguration section */
 		36805A512E09782400445070 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3D38E9BEDA3050808530FDE /* Pods-Baraka.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Baraka/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -311,11 +483,14 @@
 		};
 		36805A522E09782400445070 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B1E9B8F68F51F30E5D0945B /* Pods-Baraka.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Baraka/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -457,6 +632,7 @@
 		};
 		36805A562E09782400445070 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEFDDE63DED78F11DD098640 /* Pods-BarakaTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -475,6 +651,7 @@
 		};
 		36805A572E09782400445070 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76263A91504F746A23597F3C /* Pods-BarakaTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -493,6 +670,7 @@
 		};
 		36805A592E09782400445070 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CF4C90648D307DBA6563FEE /* Pods-Baraka-BarakaUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -509,6 +687,7 @@
 		};
 		36805A5A2E09782400445070 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BBF111DCDC46601609B4799 /* Pods-Baraka-BarakaUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;

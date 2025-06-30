@@ -1,0 +1,6 @@
+framework module Pods_BarakaTests {
+  umbrella header "Pods-BarakaTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
